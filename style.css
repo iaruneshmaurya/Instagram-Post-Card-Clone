@@ -1,0 +1,201 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+  height: 100vh;
+   width: 100vw;
+   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+.head{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+
+}
+
+
+.head{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.head i{
+  font-size: 24px;
+}
+
+
+.profile p{
+font-size: 0.7rem;
+display: inline;
+padding-left: 5px;
+
+
+}
+
+.profile img{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 2rem;
+  
+  
+
+}
+
+
+
+
+
+.postbox{
+ background-color: white;
+ height: 800px;
+ width: 400px;
+ border-radius: 0.8rem;
+
+ 
+}
+
+
+.post{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.post img{
+  
+  height: 500px;
+  width: 380px;
+  
+} 
+
+
+.react{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.social i{
+  font-size: 1.5rem;
+  padding: 4px;
+}
+
+.social img{
+  height: 1.3rem;
+  width: 1.3rem;
+  position: relative;
+  top: 3px;
+}
+
+#bookmark{
+  font-size: 1.5rem;
+}
+
+
+#des{
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+#des a{
+text-decoration: none;
+}
+
+.detail{
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+
+.comments img{
+
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  margin-left: 20px;
+  margin-top:10px ;
+
+
+}
+#cmt-num{
+  opacity: 0.8;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#comment{
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  font-size: 13px;
+  opacity: 0.8;
+
+ 
+}
+
+#time{
+opacity: 0.5;  
+font-size: 13px;
+padding-top: 8px;
+padding-left: 20px;
+
+}
+
+.hiddenLike{
+  fill: red;
+}
+
+#likePost{
+  color: black;
+  opacity: 0.3;
+}
+
+
+#scaleLike{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  transition: all ease-in 0.3s;
+ color: white;
+ opacity: 0.6;
+ font-size:5rem ;
+ 
+}
+
+
+#bookmark{
+  opacity: 0.3;
+}
